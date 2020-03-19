@@ -9,4 +9,5 @@ document.getElementById("discount").textContent = discounted;
 var result = typeof price;
 // result = typeof welcome;
 
-document.getElementById("result").textContent = result;
+document.getElementById("result").textContent = price++;
+console.log(price);
