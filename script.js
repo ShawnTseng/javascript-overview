@@ -1,4 +1,5 @@
-let welcome = "Hello World!!!",
+let name = "Shawn";
+let welcome = `Hello ${name}!!!`,
   price = 49.99,
   discounted = false;
 
