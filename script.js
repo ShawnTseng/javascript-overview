@@ -10,4 +10,11 @@ let nullValue = null;
 document.getElementById("null").textContent = nullValue;
 document.getElementById("null-type").textContent = typeof nullValue;
 
+let person = {
+  firstName: "Tseng",
+  lastName: "Shawn"
+};
+document.getElementById("person").textContent = person;
+document.getElementById("person-type").textContent = typeof person;
+
 console.log(this);
