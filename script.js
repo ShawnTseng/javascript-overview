@@ -36,3 +36,8 @@ document.getElementById("NaN").textContent = "NaN";
 document.getElementById("NaN-falsy").textContent = !!NaN;
 
 console.log(this);
+
+const header = document.getElementById("header");
+header.style.fontWeight = "800";
+header.style.fontSize = "100px";
+header.style.color = "blue";
