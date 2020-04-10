@@ -41,3 +41,6 @@ const header = document.getElementById("header");
 header.style.fontWeight = "800";
 header.style.fontSize = "100px";
 header.style.color = "blue";
+header.addEventListener("click", function() {
+  console.log("click");
+});
